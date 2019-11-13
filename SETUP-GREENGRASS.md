@@ -6,6 +6,7 @@ You can get the latest image [here](https://github.com/iopipe/pi-gen-greengrass/
 2. Burn the image
 3. Eject and re-insert the card, go into the mounted drive partition (boot partition for Linux afficionados)
 4. Copy the certs/ and config/ folders from the .tar.gz you recieved when you created a greengrass core into the boot partition in the greengrass folder
+5. If default AWS certificate (*Amazon Root CA 1*) is not suitable please copy the one used into the boot partition in `greengrass/certs` folder
 6. (optional) Add a file titled `ssh` with no extension if you want to ssh into your raspberry pi
 7. (optional) [Set up WiFi headlessly](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md)
 7. Eject sd and place it into raspberry pi and apply power to pi
